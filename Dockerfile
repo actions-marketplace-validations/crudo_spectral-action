@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:12
 
-RUN npm install -g @stoplight/spectral
+RUN npm install -g @stoplight/spectral@5.9.2
 
 COPY entrypoint.sh /usr/local/bin/
 
