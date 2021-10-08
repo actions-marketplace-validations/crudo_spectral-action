@@ -5,7 +5,7 @@ branding:
   color: "blue"
 inputs:
   file_path:
-    description: "Path to OAS file for validation"
+    description: "Path to OpenApi specification file for validation"
     required: true
 runs:
   using: "docker"
